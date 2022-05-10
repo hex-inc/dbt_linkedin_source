@@ -28,6 +28,7 @@
     {"name": "sponsored_update_carousel_share_subject", "datatype": dbt_utils.type_string()},
     {"name": "sponsored_update_direct_sponsored_content", "datatype": "boolean"},
     {"name": "sponsored_update_share", "datatype": dbt_utils.type_string()},
+    {"name": "sponsored_update_share_content_content_entities", "datatype": dbt_utils.type_string()},
     {"name": "sponsored_update_share_content_description", "datatype": dbt_utils.type_string()},
     {"name": "sponsored_update_share_content_share_media_category", "datatype": dbt_utils.type_string()},
     {"name": "sponsored_update_share_content_title", "datatype": dbt_utils.type_string()},
