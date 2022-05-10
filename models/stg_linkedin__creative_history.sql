@@ -25,7 +25,8 @@ with base as (
         cast(version_tag as numeric) as version_tag,
         status as creative_status,
         sponsored_update_share_content_content_entities,
-        click_uri
+        get(sponsored_update_share_content_content_entities, 0):landingPageUrl::varchar as landing_page_url,
+        coalesce(click_uri, landing_page_url) as click_uri
     from macro
 
 ), url_fields as (
