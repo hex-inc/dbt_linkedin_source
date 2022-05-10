@@ -24,6 +24,7 @@ with base as (
         type as creative_type,
         cast(version_tag as numeric) as version_tag,
         status as creative_status,
+        sponsored_update_share_content_content_entities,
         click_uri
     from macro
 
